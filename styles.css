@@ -1,0 +1,93 @@
+body{
+    font-family: "Rock Salt", cursive;
+    text-align: center;
+    background: linear-gradient(blue, red);
+    color: white;
+}
+
+h1,h2,h3,h4,p {
+    text-shadow: 0 0 1px black;
+}
+
+#CM-img {
+    border: 5px solid red;
+    border-radius: 50%;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+#CM-age{
+    margin: 5px 0 10px 0;
+    background: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#CM-date{
+    margin: 0;
+    background: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section{
+    margin-top: 50px;
+}
+
+.gift-title{
+    margin-bottom: 10px;
+}
+
+.gift-hint{
+    margin-top: 0px;
+}
+
+.gift-img{
+    margin: 0px auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid #ffffff;
+    border-radius: 10px;
+    background-image: url(images/gift-cover.jpg);
+    background-size: cover;
+}
+
+#gift-img-funny{
+    height: 200px;
+}
+
+#gift-img-happy:hover {
+    background-image: url(images/happy.gif);
+}
+
+#gift-img-hot:hover {
+    background-image: url(images/hot.gif);
+}
+
+#gift-img-badass:hover {
+    background-image: url(images/badass.gif);
+}
+
+#gift-img-genius:hover {
+    background-image: url(images/genius.gif);
+}
+
+#gift-img-funny:hover {
+    background-image: url(images/funny.gif);
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: #ffffff;
+}
